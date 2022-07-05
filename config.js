@@ -1,16 +1,16 @@
 let fs = require('fs')                    //CREATOR = YahyaGanzz , DEVBOT
 let chalk = require('chalk')
 global.owner = [
-  ['6281511480762'],
-  ['66281511480762'],
-  ['6281511480762', 'Owner AzzBot', true]  
+  ['6281315017916'],
+  ['6281315017916'],
+  ['6281315017916', 'Khalif', true]  
   
 ] 
-global.ownername = [['YahyaGanzz']]
-global.namabot = [['AzzBot-MD']]
-global.ownerinsta = [['@wibu_indo_888816']]
+global.ownername = [['Khalif']]
+global.namabot = [['BOTz']]
+global.ownerinsta = [['@khalif135.gm']]
 global.mods = [] 
-global.prems = [] 
+global.prems = ['6281315017916'] 
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -43,8 +43,8 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'AzzBot-MD'
-  var sticker_author = 'By YahyaGanzz'
+  var sticker_name = 'BOTz'
+  var sticker_author = 'By Khalif'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -61,9 +61,9 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = 'Created by YahyaGanzz'
+global.wm = '© Khalif'
 
-global.multiplier = 1000 // The higher, The harder levelup
+global.multiplier = 100 // The higher, The harder levelup
 
 global.rpg = {
   emoticon(string) {
